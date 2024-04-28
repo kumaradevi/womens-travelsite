@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.list li{
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-weight: 500;
+    transition: 0.4s;
+}
+.list li:hover{
+  color:  #fbc531;
+}
+.share-room{
+   width: 160px;
+   height: 30px;
+   text-align: center;
+  padding: 20px 10px;
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: #273c75;
+   border: 2px solid #fbc531;
+   color: white;
+   border-radius: 7px;
+}
+.share-room:hover{
+    transform: scale(0.9);
+   
+   
+}
+.rent-room{
+      width: 160px;
+   height: 30px;
+   text-align: center;
+  padding: 20px 10px;
+  cursor: pointer;
+  background-color: #273c75;
+   border: 2px solid #fbc531;
+   color: white;
+   border-radius: 7px;
+  transition: 0.4s;
+}
+.rent-room:hover{
+    transform: scale(0.9);
+   
+   
+}

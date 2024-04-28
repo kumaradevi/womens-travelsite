@@ -1,0 +1,15 @@
+.footer-sec{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-color: #dcdde1;
+    padding: 20px 10px;
+}
+ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+h3{
+    margin-bottom: 20px;
+    
+}
